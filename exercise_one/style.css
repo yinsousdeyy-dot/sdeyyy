@@ -1,0 +1,38 @@
+body {
+    background-color: #555;
+    font-family: Arial, sans-serif;
+    margin: 100px;
+}
+
+.card {
+    background-color: PINK;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.read-more {
+    display: inline-block;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.green {
+    background-color: #009879;
+}
+
+.orange {
+    background-color: #f39c12;
+}
+
+.purple {
+    background-color: #8e44ad;
+}
+
+.read-more:hover {
+    opacity: 0.8;
+}

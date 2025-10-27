@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title> CSS Box Model </title>
+<style>
+    body {
+        background-color: #555;
+        font-family: Arial, sans-serif;
+    }
+
+    .card {
+        margin: 20px;
+        background-color: PINK;
+        border-radius: 10px;
+        padding: 20px;
+        margin-bottom: 10px;
+    }
+
+    .read-more {
+        display: inline-block;
+        padding: 10px 20px;
+        color: WHITE;
+        border-radius: 999px;
+        text-decoration: none;
+        font-weight: bold;
+        cursor: pointer;
+        margin-top: 10px;
+    }
+
+    .green { background-color: #009879; }
+    .orange { background-color: #f39c12; }
+    .purple { background-color: #8e44ad; }
+
+    .read-more:hover {
+        opacity: 0.8;
+    }
+</style>
+</head>
+<body>
+    <div class="card">
+        <p>Keep track of daily activities can boost productivity and, thus, reduce anxiety.</p>
+        <a href="#" class="read-more green">Read more &gt;&gt;</a>
+    </div>
+
+    <div class="card">
+        <p>Have a roadmap, reducing distractions, overwhelm or stress.</p>
+        <a href="#" class="read-more orange">Read more &gt;&gt;</a>
+    </div>
+
+    <div class="card">
+        <p>Write a to-do list to give you significant control over how your day will look.</p>
+        <a href="#" class="read-more purple">Read more &gt;&gt;</a>
+    </div>
+</body>
+</html>
